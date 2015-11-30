@@ -1,0 +1,13 @@
+var weekDays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+print("\nWeek Days: ");
+printjson(weekDays);
+var fullWeek = weekDays.slice(0);
+fullWeek.unshift("Sunday");
+fullWeek.push("Saturday");
+print("\nFull Week: ");
+printjson(fullWeek);
+var midWeek = weekDays.splice(1,3);
+print("\nMid Week: ");
+printjson(midWeek);
+print("\nSliced weekdays: ");
+printjson(weekDays);

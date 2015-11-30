@@ -1,0 +1,4 @@
+mongofiles --db myFS list
+mongofiles --db myFS put console.txt
+mongofiles --db myFS --local retrieved.txt get console.txt
+mongofiles --db myFS delete console.txt

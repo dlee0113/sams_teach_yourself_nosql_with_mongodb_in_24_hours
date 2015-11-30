@@ -1,0 +1,4 @@
+verbose = true
+port = 27017
+dbpath=c:\mongodb\data\db\
+auth = true
